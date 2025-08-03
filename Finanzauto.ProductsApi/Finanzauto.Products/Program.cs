@@ -126,8 +126,6 @@ app.UseExceptionHandler("/Error");
     app.UseHsts();
 
 
-//app.UseHttpsRedirection();
-
 app.UseRouting();
 
 app.UseAuthentication();
@@ -138,4 +136,5 @@ app.UseCors();
 
 
 app.Run();
+
 public partial class Program { }

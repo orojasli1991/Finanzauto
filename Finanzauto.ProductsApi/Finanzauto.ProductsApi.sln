@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.ProductsApi.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.ProductsApi.Infrastructure", "Finanzauto.ProductsApi.Infrastructure\Finanzauto.ProductsApi.Infrastructure.csproj", "{DD9E5E83-3152-4302-AEB8-8764AD51D367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Products.Tests", "..\tests\Finanzauto.Products.Tests.Unit\Finanzauto.Products.Tests.csproj", "{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -40,10 +38,6 @@ Global
 		{DD9E5E83-3152-4302-AEB8-8764AD51D367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD9E5E83-3152-4302-AEB8-8764AD51D367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD9E5E83-3152-4302-AEB8-8764AD51D367}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
