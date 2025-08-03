@@ -33,6 +33,7 @@ namespace Finanzauto.Products.Tests.Application
 
             Assert.Equal(1, result);
         }
+        [Fact]
         public async Task GetAllProductsAsync()
         {
 
