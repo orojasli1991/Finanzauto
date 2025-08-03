@@ -1,0 +1,46 @@
+
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: ./infra/nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./Finanzauto.ProductsApi
+      dockerfile: ./Dockerfile
+    container_name: backend
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+    depends_on:
+      - sqlserverFinanzauto
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sqlserverFinanzauto,1433;Database=Finanzauto;User Id=sa;Password=1n7Com3x02062025;TrustServerCertificate=True;Encrypt=False;"
+
+  sqlserverFinanzauto:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserverFinanzauto
+    environment:
+      SA_PASSWORD: "1n7Com3x02062025"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlvolume:/var/opt/mssql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+volumes:
+  sqlvolume:

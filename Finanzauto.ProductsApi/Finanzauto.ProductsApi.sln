@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Products", "Finanzauto.Products\Finanzauto.Products.csproj", "{99ABDF47-1921-44B6-B2E5-AD0BC571B986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Products.Application", "Finanzauto.Products.Application\Finanzauto.Products.Application.csproj", "{E46C9B9E-AD83-4B52-AFE3-BFB8D90B965B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.ProductsApi.Domain", "Finanzauto.ProductsApi.Domain\Finanzauto.ProductsApi.Domain.csproj", "{1AC7581C-9EAB-4418-BB5D-122BD5E494EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.ProductsApi.Infrastructure", "Finanzauto.ProductsApi.Infrastructure\Finanzauto.ProductsApi.Infrastructure.csproj", "{DD9E5E83-3152-4302-AEB8-8764AD51D367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Products.Tests", "..\tests\Finanzauto.Products.Tests.Unit\Finanzauto.Products.Tests.csproj", "{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99ABDF47-1921-44B6-B2E5-AD0BC571B986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99ABDF47-1921-44B6-B2E5-AD0BC571B986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99ABDF47-1921-44B6-B2E5-AD0BC571B986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99ABDF47-1921-44B6-B2E5-AD0BC571B986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46C9B9E-AD83-4B52-AFE3-BFB8D90B965B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46C9B9E-AD83-4B52-AFE3-BFB8D90B965B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46C9B9E-AD83-4B52-AFE3-BFB8D90B965B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46C9B9E-AD83-4B52-AFE3-BFB8D90B965B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC7581C-9EAB-4418-BB5D-122BD5E494EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC7581C-9EAB-4418-BB5D-122BD5E494EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC7581C-9EAB-4418-BB5D-122BD5E494EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC7581C-9EAB-4418-BB5D-122BD5E494EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9E5E83-3152-4302-AEB8-8764AD51D367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9E5E83-3152-4302-AEB8-8764AD51D367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9E5E83-3152-4302-AEB8-8764AD51D367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9E5E83-3152-4302-AEB8-8764AD51D367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C937E5B8-E3B9-FA6E-4F7A-D4EDA18CC4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC0B5482-722D-40A1-9432-E96F2C9D3790}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Finanzauto.Products.Application": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
