@@ -8,8 +8,10 @@
      - Frontend SPA: http://localhost:8080/login
      - Swagger UI (API): http://localhost:5000/swagger/index.html
      - Nginx = http://localhost:8080/
+       
   4.Pruebas
      - Las pruebas unitarias e integradas están ubicadas en la carpeta tests/ = dotnet test
+     
 # Breve justificación de decisiones técnicas.
   - Backend
     - Net 8.0
@@ -32,6 +34,9 @@
   
   - DB
     - Sql server
+   
+  -Nginx
+    -Recibe las peticiones del front por el puerto 8080 y realiza peticiones internas al back por le puerto 5000 por las url que contengan el path /api/
       
 # Estrategia de Testing
     -  xUnit / Microsoft.AspNetCore.Mvc.Testing / 
